@@ -1,15 +1,15 @@
-//  SortingHandlerTests.swift
-//  Created by Rohit Patil on 25/06/22.
+//  BubbleSortTests.swift
+//  Created by Rohit Patil on 27/06/22.
 import XCTest
 
 @testable import TechdoseAssignments
 
-class SelectionSortTests: XCTestCase {
+class BubbleSortTests: XCTestCase {
     
     var sortingHandler: SortingHandler!
     
     override func setUp() {
-        sortingHandler = SelectionSort()
+        sortingHandler = BubbleSort()
     }
     
     func testSorting_Input1() {
@@ -48,3 +48,4 @@ class SelectionSortTests: XCTestCase {
         XCTAssertEqual(numbers, [1, 2, 4, 5, 8])
     }
 }
+
