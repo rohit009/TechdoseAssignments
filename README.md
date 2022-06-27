@@ -2,8 +2,9 @@
 
 Assignments from Techdose DSA course.
 
-Includes following:
+Includes following DSA implementations:
 - Sorting
-- Bubble sort
+  - Selection sort
+  - Bubble sort
 
 Developed by: Rohit Patil.
