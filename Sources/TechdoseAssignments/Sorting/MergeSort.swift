@@ -7,6 +7,8 @@
 
 import Foundation
 
+// Implements merge sort algorithm.
+// Steps: 1. Binary partitioning, 2. Merge two sorted lists.
 class MergeSort: SortingHandler {
     func sort(_ numbersArray: [Int]) -> [Int] {
         return mergeSort(numbersArray)
@@ -34,10 +36,13 @@ class MergeSort: SortingHandler {
         let mid = low + ((high - low) / 2)
         mergeSort(&numbersArray, low: low, high: mid)  // Sort the left list.
         mergeSort(&numbersArray, low: mid + 1, high: high)  // Sort the right list.
-        mergeSortedArrays(&numbersArray, low: low, mid: mid, high: high)  // Merge two sorted lists.
+        mergeSortedArraysUsingExtraSpace(&numbersArray, low: low, mid: mid, high: high)  // Merge two sorted lists.
     }
     
-    private func mergeSortedArrays(_ numbersArray: inout [Int], low: Int, mid: Int, high: Int) {
+    
+    // This implementation uses extra space to merge the arrays.
+    // There is also an implementation which does not use extra space to merge the arrays.
+    private func mergeSortedArraysUsingExtraSpace(_ numbersArray: inout [Int], low: Int, mid: Int, high: Int) {
         var sortedArray = [Int]()
         var i = low
         var j = mid + 1
