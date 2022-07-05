@@ -7,5 +7,6 @@ Includes following DSA implementations:
   - Selection sort
   - Bubble sort
   - Merge sort
+  - Insertion sort
 
 Developed by: Rohit Patil.
