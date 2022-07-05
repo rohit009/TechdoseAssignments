@@ -1,6 +1,6 @@
 # TechdoseAssignments
 
-DSA Implentations and practice
+DSA Implementations and practice
 
 Includes following DSA implementations:
 - Sorting
