@@ -1,6 +1,6 @@
 # TechdoseAssignments
 
-Assignments from Techdose DSA course.
+DSA Implentations and practice
 
 Includes following DSA implementations:
 - Sorting
