@@ -8,5 +8,6 @@ Includes following DSA implementations:
   - Bubble sort
   - Merge sort
   - Insertion sort
+  - Quick sort
 
 Developed by: Rohit Patil.
