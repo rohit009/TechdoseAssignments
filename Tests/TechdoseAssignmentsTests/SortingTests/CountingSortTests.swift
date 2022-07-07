@@ -6,7 +6,7 @@ import XCTest
 
 class CountingSortTests: XCTestCase {
     
-    var sortingHandler: SortingHandler!
+    var sortingHandler: CountingSort!
     
     override func setUp() {
         sortingHandler = CountingSort()
@@ -46,5 +46,23 @@ class CountingSortTests: XCTestCase {
         let numbers = sortingHandler.sort([5, 1, 4, 2, 8])
 
         XCTAssertEqual(numbers, [1, 2, 4, 5, 8])
+    }
+    
+    func testSorting_Input7_considerationHandler_digit2() {
+        let input = [102, 145, 898, 205, 113, 667]
+        let numbers = sortingHandler.countingSort(input, range: 0 ... 9) { originalNumber in
+            return (originalNumber / 10) % 10
+        }
+
+        XCTAssertEqual(numbers, [102, 205, 113, 145, 667, 898])
+    }
+    
+    func testSorting_Input8_considerationHandler_digit2() {
+        let input = [102, 1, 898, 205, 113, 667]
+        let numbers = sortingHandler.countingSort(input, range: 0 ... 9) { originalNumber in
+            return (originalNumber / 10) % 10
+        }
+
+        XCTAssertEqual(numbers, [102, 1, 205, 113, 667, 898])
     }
 }
