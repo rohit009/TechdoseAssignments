@@ -1,9 +1,5 @@
-//
 //  QuickSort.swift
-//  
-//
 //  Created by Rohit Patil on 05/07/22.
-//
 import Foundation
 
 // Quick sort algorithm implementation.

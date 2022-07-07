@@ -1,9 +1,5 @@
-//
 //  InsertionSort.swift
-//  
-//
 //  Created by Rohit Patil on 05/07/22.
-//
 import Foundation
 
 // Insertion sort algorithm implementation.

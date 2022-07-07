@@ -1,10 +1,5 @@
-//
 //  MergeSort.swift
-//  
-//
 //  Created by Rohit Patil on 04/07/22.
-//
-
 import Foundation
 
 // Implements merge sort algorithm.

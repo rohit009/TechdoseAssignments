@@ -1,9 +1,5 @@
-//
 //  CountingSort.swift
-//  
-//
 //  Created by Rohit Patil on 07/07/22.
-//
 import Foundation
 
 // The handler used to consider a number for the given number before updating its position in array
