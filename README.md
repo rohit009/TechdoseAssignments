@@ -10,5 +10,6 @@ Includes following DSA implementations:
   - Insertion sort
   - Quick sort
   - Counting sort
+  - Radix sort
 
 Developed by: Rohit Patil.
