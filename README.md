@@ -11,5 +11,6 @@ Includes following DSA implementations:
   - Quick sort
   - Counting sort
   - Radix sort
+  - Bucket sort
 
 Developed by: Rohit Patil.
