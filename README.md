@@ -9,5 +9,6 @@ Includes following DSA implementations:
   - Merge sort
   - Insertion sort
   - Quick sort
+  - Counting sort
 
 Developed by: Rohit Patil.
