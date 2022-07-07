@@ -25,7 +25,7 @@ class InsertionSort: AdditionalSortingHandler {
         return sortedNumbers
     }
     
-    private func insertionSort(_ sortedNumbers: inout [Int], numberToInsert: Int) {
+    public func insertionSort(_ sortedNumbers: inout [Int], numberToInsert: Int) {
         if sortedNumbers.isEmpty {
             sortedNumbers.append(numberToInsert)
             return
