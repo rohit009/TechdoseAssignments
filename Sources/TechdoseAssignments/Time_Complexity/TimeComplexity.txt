@@ -1,0 +1,100 @@
+
+Questions Link: https://discuss.codechef.com/t/multiple-choice-questions-related-about-time-and-space-complexity-of-a-program/17976
+
+1. 
+	-> B. O(n Log n)
+	=> Result: Correct
+	
+2. 
+	-> C. O(n^2)
+	=> Result: Correct.
+	
+3. 
+	-> C. O(Log n)
+	=> Result: Incorrect. Correct answer: 3 B
+	
+4. 
+	-> C. O(n Log n)
+	=> Result: Incorrect. Correct answer: 4 B
+	
+5. 
+	-> C. O(n + m)
+	=> Result: Correct
+	
+6.
+	-> D. O(n * m)
+	=> Result: Correct
+	
+7. 
+	-> D. O(n^3)
+	-> Ref: Sum of first n natural nos.
+	=> Result: Incorrect. Correct answer: 7 C
+	
+8. 
+	-> D. O(n^3)
+	=> Result: Incorrect. Correct answer: 8 C
+	
+9. 
+	-> A. O(n)
+	=> Result: Incorrect. Correct answer: 9 C
+	
+10.
+	-> B. O(N * M * K)
+	=> Result: Correct
+	
+11.
+	-> A. O (n)
+	=> Result: Correct
+	
+12.
+	-> D. O (n)
+	=> Result: Incorrect. Correct answer: 12 C
+	
+13.
+	=> Result: Not attempted. Correct answer: 13 C
+
+14.
+	-> B. O (Log m  Log n)
+	=> Result: Correct
+	
+15.
+	-> B. O (Log n)
+	=> Result: Correct
+
+16.
+	-> B. O (Log n)
+	=> Result: Correct
+
+17.
+	-> B. O (Log n)
+	=> Result: Correct
+	
+18.
+	-> C. O (n^2)
+	=> Result: Incorrect. Correct answer: 18 D
+
+19.
+	=> Result: Not attempted. Correct answer: 19 B
+	
+20.
+	-> D. O (n^2)
+	=> Result: Incorrect. Correct answer: 20 B
+
+21.
+	-> C. O (n Log n)
+	=> Result: Correct
+	
+	
+Result: 
+Correct: 11
+Incorrect: 8
+Not attempted: 2
+
+
+
+Useful resources:
+- Sum of first n natural numbers - Derivation of a formula: https://www.youtube.com/watch?v=aaFrAFZATKU
+- Harmonic Progression (Part-1) | Class 11th Maths: https://www.youtube.com/watch?v=k9Pblb1bx8M
+
+
+
