@@ -45,7 +45,6 @@ class ClosestSubsequenceSum {
                 let targetSoFar = abs(addition - goal)
                 if targetSoFar <= nearestValue {
                     nearestValue = targetSoFar
-                    // Try to find the 
                     high = mid - 1
                 } else {
                     low = mid + 1
