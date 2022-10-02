@@ -3,9 +3,9 @@
 import Foundation
 
 
-// WIP
 // Q: For each element in 1st array count elements less than or equal to it in 2nd array
 // https://www.geeksforgeeks.org/element-1st-array-count-elements-less-equal-2nd-array/
+// Note: Did not follow complete question as is. 
 /*
  Ex:
  Input : arr1[] = [1, 2, 3, 4, 7, 9]
@@ -31,11 +31,9 @@ class CountIn2ndArray {
                 secondArrayElement = secondArray.last ?? 0
             }
             
-            if firstArray[pointer1] >= secondArrayElement {
-                if pointer2 <= secondArray.count {
-                    pointer2 += 1
-                }
-            } else if firstArray[pointer1] < secondArrayElement || pointer2 == secondArray.count {
+            if firstArray[pointer1] >= secondArrayElement && pointer2 < secondArray.count{
+                pointer2 += 1
+            } else {
                 lessCountNumbers.append(pointer2)
                 pointer1 += 1
             }
