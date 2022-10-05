@@ -7,9 +7,7 @@ class SubArraysGenerator {
         var subArrays = [[Int]]()
 
         for i in 0 ..< numbers.count {
-            subArrays.append([ numbers[i] ])
-            
-            for j in ((i + 1) ..< numbers.count) {
+            for j in i ..< numbers.count {
                 subArrays.append(Array(numbers[i ... j]))
             }
         }
