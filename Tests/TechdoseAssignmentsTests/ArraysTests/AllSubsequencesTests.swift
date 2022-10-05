@@ -16,7 +16,7 @@ class AllSubsequencesTests: XCTestCase {
             [1, 2],
         ]
         let output = AllSubsequences().allSubSequences(numbers: numbers)
-        let sortedOutput = sort2DArray(inputArray: output)
+        let sortedOutput = TestHelpers.sort2DArray(inputArray: output)
 
         XCTAssertEqual(sortedOutput, expectedOutput)
     }
@@ -34,36 +34,9 @@ class AllSubsequencesTests: XCTestCase {
             [1, 2, 3],
         ]
         let output = AllSubsequences().allSubSequences(numbers: numbers)
-        let sortedOutput = sort2DArray(inputArray: output)
+        let sortedOutput = TestHelpers.sort2DArray(inputArray: output)
 
         XCTAssertEqual(sortedOutput, expectedOutput)
-    }
-
-    func sort2DArray(inputArray: [[Int]]) -> [[Int]] {
-        return inputArray.sorted { array1, array2 in
-            if array1.elementsEqual(array2) {
-                return true
-            } else if array1.count == array2.count {
-                var sum1 = 0
-                for number in array1 {
-                    sum1 += number
-                }
-                var sum2 = 0
-                for number in array2 {
-                    sum2 += number
-                }
-                
-                if sum1 <= sum2 {
-                    return true
-                } else {
-                    return false
-                }
-            } else if array1.count < array2.count {
-                return true
-            } else {
-                return false
-            }
-        }
     }
 }
 
