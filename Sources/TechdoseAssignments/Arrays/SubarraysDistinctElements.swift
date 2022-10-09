@@ -2,8 +2,8 @@
 //  Created by Rohit Patil on 05/10/22.
 import Foundation
 
-// Question: Find the count of sub-arrays with atmost k unique numbers from the given array.
-// Approach: Sliding window + Map.
+// Question: Find the count of sub-arrays with at most k unique numbers from the given array.
+// Approach: Variable size sliding window + Map.
 // https://www.codingninjas.com/codestudio/problems/subarrays-with-at-most-k-distinct-values_1473804
 class SubarraysDistinctElements {
     public func numberOfSubarraysHaving(kDistinctElements: Int, in numbers: [Int]) -> Int {
