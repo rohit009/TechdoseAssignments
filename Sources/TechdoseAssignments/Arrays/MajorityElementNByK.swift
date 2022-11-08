@@ -2,7 +2,8 @@
 //  Created by Rohit Patil on 08/11/22.
 import Foundation
 
-// Implementation of Moore's voting algorithm.
+// Implementation of finding N/K majority element in an array.
+// Note: For N/K Moore's voting algorithm is not used and hash map approach is used.
 // Question link: https://leetcode.com/problems/majority-element-ii/
 class MajorityElementNByK {
     public func findMajorityElements(numbers: [Int], k: Int) -> [Int] {
