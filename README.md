@@ -2,7 +2,7 @@
 
 DSA Implementations and practice
 
-Includes following DSA implementations:
+Includes following Data structures and Algorithm implementations:
 - Sorting
   - Selection sort
   - Bubble sort
@@ -12,5 +12,6 @@ Includes following DSA implementations:
   - Counting sort
   - Radix sort
   - Bucket sort
+- Arrays
 
 Developed by: Rohit Patil.
